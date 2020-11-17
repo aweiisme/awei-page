@@ -44,11 +44,11 @@ $(document).ready(function () {
   });
 
   $(".send").click(function (e) { 
-    $("#inputname").val("");
-    $("#inputemail").val("");
-    $("#inputtextarea").val("");
     $('.send').html('傳送中...'); 
     setTimeout(() => {
+      $("#inputname").val("");
+      $("#inputemail").val("");
+      $("#inputtextarea").val("");
       $('.send').html('已送出，感謝您的留言');
       setTimeout(() => {
         $('.send').html('可再次留言');
