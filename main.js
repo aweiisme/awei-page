@@ -44,7 +44,19 @@ $(document).ready(function () {
   });
 
   $(".send").click(function (e) { 
-    e.preventDefault();
+    $("#inputname").val("");
+    $("#inputemail").val("");
+    $("#inputtextarea").val("");
+    $('.send').html('傳送中...'); 
+    setTimeout(() => {
+      $('.send').html('已送出，感謝您的留言');
+      setTimeout(() => {
+        $('.send').html('可再次留言');
+        setTimeout(() => {
+          $('.send').html('送出');
+        }, 1000);
+      }, 2000);
+    }, 2000);
     
   });
   
