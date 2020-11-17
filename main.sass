@@ -164,7 +164,6 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
 #about-me
     padding-top: 70px
     position: relative
-
     img
         width: 100%
         border-radius: 20px
@@ -181,7 +180,7 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
         align-items: baseline
         margin-top: 20px
         .name,.sch,.exp
-            width: 30%
+            // width: 30%
 
     .about
         margin-top: 50px
@@ -193,6 +192,7 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
         .fas.fa-times
             color: $color_white
             font-size: 30px
+
 
 #skill    
     ul
@@ -304,11 +304,17 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
 
 // interest
 #interest
+    position: relative
+    .media
+        .media-body
+            padding: 10px
     h2
         letter-spacing: 5px
     img.int
         border-radius: 10px
         width: 200px
+
+        
     img.int2
         padding-top: 30px
         padding-left: 50px
@@ -320,6 +326,8 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
     .int2,.int3
         &:hover
             animation: img-rotate 2s linear 1
+        
+    
 
 
 #contact
