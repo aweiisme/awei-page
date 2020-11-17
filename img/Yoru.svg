@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="777" height="808" viewBox="0 0 777 808">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="44" width="164" height="550" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect y="28" width="550" height="192" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect y="351" width="550" height="167" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect x="344" width="165" height="550" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="777" height="808"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <g id="路径_1" data-name="路径 1" transform="translate(186.5 158.5)" fill="none">
+      <path d="M200,0C310.457,0,400,89.543,400,200S310.457,400,200,400,0,310.457,0,200,89.543,0,200,0Z" stroke="none"/>
+      <path d="M 200 20 C 100.7476501464844 20 20 100.7476501464844 20 200 C 20 299.2523498535156 100.7476501464844 380 200 380 C 299.2523498535156 380 380 299.2523498535156 380 200 C 380 100.7476501464844 299.2523498535156 20 200 20 M 200 0 C 310.4569396972656 0 400 89.54306030273438 400 200 C 400 310.4569396972656 310.4569396972656 400 200 400 C 89.54306030273438 400 0 310.4569396972656 0 200 C 0 89.54306030273438 89.54306030273438 0 200 0 Z" stroke="none" fill="#ffa200"/>
+    </g>
+    <line id="直线_1" data-name="直线 1" x2="773" transform="translate(0 359)" fill="none" stroke="#ffa200" stroke-width="20"/>
+    <g id="滚动组_1" data-name="滚动组 1" transform="translate(111.5 82.5)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="椭圆_2" data-name="椭圆 2" fill="none" stroke="#ffa200" stroke-width="20">
+        <circle cx="275" cy="275" r="275" stroke="none"/>
+        <circle cx="275" cy="275" r="265" fill="none"/>
+      </g>
+    </g>
+    <g id="滚动组_3" data-name="滚动组 3" transform="translate(111.5 82.5)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+      <g id="椭圆_4" data-name="椭圆 4" fill="none" stroke="#ffa200" stroke-width="20">
+        <circle cx="275" cy="275" r="275" stroke="none"/>
+        <circle cx="275" cy="275" r="265" fill="none"/>
+      </g>
+    </g>
+    <g id="滚动组_4" data-name="滚动组 4" transform="translate(111.5 82.5)" clip-path="url(#clip-path-3)" style="isolation: isolate">
+      <g id="椭圆_5" data-name="椭圆 5" fill="none" stroke="#ffa200" stroke-width="20">
+        <circle cx="275" cy="275" r="275" stroke="none"/>
+        <circle cx="275" cy="275" r="265" fill="none"/>
+      </g>
+    </g>
+    <line id="直线_2" data-name="直线 2" y2="805" transform="translate(387)" fill="none" stroke="#ffa200" stroke-width="20"/>
+    <g id="滚动组_2" data-name="滚动组 2" transform="translate(111.5 82.5)" clip-path="url(#clip-path-4)" style="isolation: isolate">
+      <g id="椭圆_3" data-name="椭圆 3" fill="none" stroke="#ffa200" stroke-width="20">
+        <circle cx="275" cy="275" r="275" stroke="none"/>
+        <circle cx="275" cy="275" r="265" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

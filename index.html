@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>C.W Hsieh</title><link rel="icon" type="image/png" sizes="32x32" href="img/Yoru.svg">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;amp;display=swap"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top at_top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTog" aria-controls="navbarTog" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span></button><a class="navbar-brand" id="home" href="home.html">C.W Hsieh</a>
+        <div class="collapse navbar-collapse" id="navbarTog">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active scroll"><a class="nav-link" href="#about-me">AboutMe</a></li>
+            <li class="nav-item scroll"><a class="nav-link" href="#skill">Skills</a></li>
+            <li class="nav-item scroll"><a class="nav-link" href="#work">Work</a></li>
+            <li class="nav-item scroll"><a class="nav-link" href="#interest">interest</a></li>
+            <li class="nav-item scroll"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="header-index">
+      <div class="container"><img class="icon" src="img/CWH.svg" alt="icon" data-0="transform: translateY(-50px)" data-500="transform: translateY(100px)"/>
+        <div class="scroll"><a href="#about-me">
+            <div class="explore at_top">About Me</div></a></div>
+      </div>
+    </header>
+    <section id="about-me">
+      <div class="container">
+        <h1>About Me</h1>
+        <hr/>
+        <div class="row">
+          <div class="col-sm-3" data-300="opacity: 0;transform: translateX(-100px)" data-500="opacity: 1;transform: translateX(0px)">
+            <div class="carousel slide carousel-fade" id="carouselExampleSlidesOnly" data-ride="carousel" data-pause="false">
+              <div class="carousel-inner">
+                <div class="carousel-item my_photo" data-interval="2500"><img class="d-block w-100" src="img/me_1.jpg" alt="Cheng-Wei_1"/></div>
+                <div class="carousel-item my_photo active" data-interval="2500"><img class="d-block w-100" src="img/me_2.jpg" alt="Cheng-Wei_2"/></div>
+                <div class="carousel-item my_photo" data-interval="2500"><img class="d-block w-100" src="img/me_6.jpg" alt="Cheng-Wei_6"/></div>
+                <div class="carousel-item my_photo" data-interval="2500"><img class="d-block w-100" src="img/TOS_4.jpg" alt="Cheng-Wei_4"/></div>
+                <div class="carousel-item my_photo" data-interval="2500"><img class="d-block w-100" src="img/me_3.jpg" alt="Cheng-Wei_3"/></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <div class="idu">
+              <div class="name" data-450="opacity: 0;transform: translateX(100px)" data-600="opacity: 1;transform: translateX(0px)">
+                <h4>姓名: 謝正偉</h4>
+                <h4>生日: 1992.02.29</h4>
+                <h4>年齡: 28 歲</h4>
+                <h4>性別: 男</h4>
+                <h4>興趣: 電玩遊戲<br>、羽球、動漫</h4>
+              </div>
+              <div class="sch" data-500="opacity: 0;transform: translateX(100px)" data-650="opacity: 1;transform: translateX(0px)">
+                <h4>2014年<br>國立中興大學<br>環境工程學系</h4>
+                <h4>2016年<br>國立交通大學<br>環境工程研究所</h4>
+                <h4>2017年<br>基隆市百福國中<br>教育替代役</h4>
+              </div>
+              <div class="exp" data-550="opacity: 0;transform: translateX(100px)" data-700="opacity: 1;transform: translateX(0px)">
+                <h4>2018、2019年<br>綠信環境科技<br>計畫經理</h4>
+                <h4>計畫：<br>107年度臺北市<br>資源回收體系對象<br>查核輔導計畫<br><br>108年度台北市<br>資源回收輔導宣導計畫</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about dark">
+        <div class="container text-center">
+          <div class="self">
+            <h4 data-700="opacity: 0;transform: translateY(-100px)" data-1000="opacity: 1;transform: translateY(0px)">　　我是謝正偉，是個樂觀、隨和且務實謹慎的大男孩，是土生土長的臺北人。畢業自中興大學環境工程學系、交通大學環境工程研究所。在成長過程中，熱愛電玩遊戲的我，一直夢想可以擔任程式工程師寫出屬於自己的遊戲，所以對於程式懷有濃厚的興趣。</h4>
+          </div>
+          <button class="btn btn-info" type="button" data-toggle="modal" data-target="#about">More...</button>
+          <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="CenterTitle" aria-hidden="true" data-backdrop="true" data-keyboard="false">
+            <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header dark">
+                  <h5 class="modal-title" id="CenterTitle">< About Me ></h5>
+                  <button class="close fas fa-times" type="button" data-dismiss="modal" aria-label="Close"></button><span aria-hidden="true"> </span>
+                </div>
+                <div class="modal-body dark text-left">
+                  <h4 class="source">關於謝正偉
+                    <ul>
+                      <li>樂觀、隨和、務實、謹慎</li>
+                      <li>土生土長的臺北人</li>
+                      <li>熱愛電玩遊戲，從小夢想擔任程式工程師，寫出屬於自己的遊戲</li>
+                    </ul>
+                  </h4>
+                  <h4 class="source mt-2">關於學經歷
+                    <ul>
+                      <li>中興大學環境工程學系畢業</li>
+                      <li>交通大學環境工程研究所畢業</li>
+                      <li>大學參加系上羽球隊</li>
+                      <li>研究所擔任系學會會長，與團隊合作策畫活動，包括外國教授來臺學術交流活動、學長姐送舊等</li>
+                      <li>基隆百福國中教育替代役（2017年），負責文書作業、遞送公文</li>
+                      <li>退役後進入環境顧問業工作，綠信環境科技股份有限公司擔任計畫經理（2018~2019年），負責臺北市政府的環保活動計畫，內容包括撰寫計畫、舉辦活動如資源回收宣導和贈品兌換、禁用一次性餐具記者會等</li>
+                    </ul>
+                  </h4>
+                  <h4 class="source mt-2">關於程式學習
+                    <ul>
+                      <li>曾在大學「計算機概論」課程中學習「R語言」</li>
+                      <li>曾在研究所「環境資訊網路資源之建立」課程中（指導教授高正忠教授），學習了PHP、HTML的基礎語法</li>
+                      <li>為學習程式辭去原本工作，開始以初學者身分學習程式設計</li>
+                      <li>利用Youtube網路資源自我學習python基礎</li>
+                      <li>透過網路課程（網頁基礎十五天），學習逾2個月的前端課程，包括HTML、CSS、RWD、jquery基礎、JavaScript基礎、AJAX前後端溝通等</li>
+                      <li>
+                         目前已學會透過HTML及CSS（bootstrap4，並以less方式撰寫），進行網頁之版面切割設計以及美化，再透過jquery以及AJAX來增加前後端互動，主要使用之IDE則為VScode。</li>
+                    </ul>
+                  </h4>
+                  <h4 class="source mt-2">關於目標
+                    <ul>
+                      <li>平時興趣是玩遊戲，包括手遊、電玩，甚至桌遊及實境解謎，也熱愛動漫</li>
+                      <li>遊戲過程中，也常思索著：這是用什麼樣的程式寫出的遊戲？這款遊戲可以如何改進？如果是我，會怎麼製作這款遊戲？</li>
+                      <li>短期目標：精進前端設計</li>
+                      <li>中期目標：發展後端技能，例如學習python等程式語言</li>
+                      <li>長期目標：致力開發遊戲、軟體程式、APP等</li>
+                    </ul>
+                  </h4>
+                </div>
+                <div class="modal-footer dark">
+                  <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><img class="margin_top" src="img/mt.svg" alt=""/>
+      </div>
+    </section>
+    <section id="skill">
+      <div class="container">
+        <h1>Skills ◆</h1>
+        <hr/>
+        <div class="row">
+          <div class="col-sm-6">
+            <ul>
+              <li id="CH" data-1400="opacity: 0;transform: translateX(-350px)" data-1500="opacity: 1;transform: translateX(0px)"><img class="sk lg" src="img/CH.svg" alt="中文"/>
+                <p>中文</p>
+                <div class="ab">
+                  <div class="abi" data-1300="width: 0%" data-1400="width: 100%"></div>
+                </div>
+              </li>
+              <li id="EN" data-1450="opacity: 0;transform: translateX(-350px)" data-1550="opacity: 1;transform: translateX(0px)"><img class="sk lg" src="img/EN.svg" alt="English"/>
+                <p>英文</p>
+                <div class="ab">
+                  <div class="abi" data-1300="width: 0%" data-1400="width: 70%"></div>
+                </div>
+              </li>
+              <li id="JP" data-1550="opacity: 0;transform: translateX(-350px)" data-1600="opacity: 1;transform: translateX(0px)"><img class="sk lg" src="img/JP.svg" alt="にほんご"/>
+                <p>日文</p>
+                <div class="ab">
+                  <div class="abi" data-1300="width: 0%" data-1400="width: 60%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul>
+              <li id="HTML" data-1400="opacity: 0;transform: translateX(350px)" data-1500="opacity: 1;transform: translateX(0px)"><img class="sk" src="img/HTML.svg" alt="HTML"/>
+                <p>HTML</p>
+                <div class="ab">
+                  <div class="abi" data-1300="width: 0%" data-1400="width: 100%"></div>
+                </div>
+              </li>
+              <li id="CSS" data-1450="opacity: 0;transform: translateX(350px)" data-1550="opacity: 1;transform: translateX(0px)"><img class="sk" src="img/CSS.svg" alt="CSS"/>
+                <p>CSS</p>
+                <div class="ab">
+                  <div class="abi" data-1300="width: 0%" data-1400="width: 90%"></div>
+                </div>
+              </li>
+              <li id="JS" data-1550="opacity: 0;transform: translateX(350px)" data-1600="opacity: 1;transform: translateX(0px)"><img class="sk" src="img/JS.svg" alt="JavaScript"/>
+                <p>JS</p>
+                <div class="ab">
+                  <div class="abi" data-1300="width: 0%" data-1400="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="skill dark">
+        <div class="container" data-1800="opacity: 0;transform: translateX(500px)" data-2000="opacity: 1;transform: translateX(0px)">
+          <div class="accordion" id="learn">
+            <div class="card">
+              <div class="card-header" id="JPL" type="button" data-toggle="collapse" data-target="#JPLc" aria-expanded="true" aria-controls="JPLc"> 
+                <h2 class="mb-0 ml-4">日文學習</h2>
+                <hr class="mb-0"/>
+              </div>
+              <div class="collapse" id="JPLc" aria-labelledby="JPL" data-parent="#learn">
+                <div class="card-body">由於喜歡日本文化、動畫以及遊戲，故自去年11月開始學習日文迄今(程度約N4)，不斷精進自己的日文語言能力。</div>
+              </div><br/>
+              <div class="card-header" id="PCL" type="button" data-toggle="collapse" data-target="#PCLc" aria-expanded="true" aria-controls="PCLc">
+                <h2 class="mb-0 ml-4">程式語言學習</h2>
+                <hr class="mb-0"/>
+              </div>
+              <div class="collapse" id="PCLc" aria-labelledby="PCL" data-parent="#learn">
+                <div class="card-body">大學課程中學習「R語言」<br/>研究所課程中學習PHP、HTML的基礎語法<br/>透過網路課程（網頁基礎十五天）學習HTML、CSS、RWD、jquery基礎、JavaScript基礎、AJAX前後端溝通等</div>
+              </div><br/>
+              <div class="card-header" id="OTS" type="button" data-toggle="collapse" data-target="#OTSc" aria-expanded="true" aria-controls="OTSc">
+                <h2 class="mb-0 ml-4">其他技能</h2>
+                <hr class="mb-0"/>
+              </div>
+              <div class="collapse" id="OTSc" aria-labelledby="OTS" data-parent="#learn">
+                <div class="card-body">電腦：Word、Excel、PowerPoint、Adobe XD、AI <br/>音樂：直笛(中音笛、次中音笛、低音笛)、長號<br/>駕照：汽車駕照、機車駕照</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <div class="container">
+        <div class="row" v-if="works.length&gt;0">
+          <div class="col-sm-12">
+            <h1>Works ◆</h1>
+            <hr/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 work big"><img :src="works[0].img" alt="work0"/><a class="texts" :href="works[0].linkad" target="_blank">
+              <h4 class="title">{{ works[0].name }}</h4>
+              <p class="content" v-html="works[0].content.substr(0,40)"></p></a></div>
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-6 work" v-for="w in works.slice(1,5)"><img :src="w.img" alt=""/><a class="texts" :href="w.linkad" target="_blank">
+                  <h4 class="title">{{ w.name }}</h4>
+                  <p class="content">{{ w.content }}</p></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="interest">
+      <div class="container">
+        <h1>Interest ◆</h1>
+        <hr/>
+        <h4 class="text-center">運動、動畫、遊戲 </h4><br/>
+        <div class="row">
+          <h2 class="ml-5">SPORT</h2>
+          <div class="w-100"></div>
+          <div class="col-sm mt-2">
+            <div class="media"><img class="int mr-3" src="img/int/int_1.jpg" alt="羽球"/>
+              <div class="media-body">
+                <h5 class="mt-0">羽球 BADMINTON</h5>大一加入系上羽球隊、<br/>大一~大四參與大環杯，與各校比賽、切磋球技<br/><img class="int3" src="img/int/B.png" alt=""/>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mt-2">
+            <div class="media"><img class="int mr-3" src="img/int/int_2.jpg" alt="重訓"/>
+              <div class="media-body">
+                <h5 class="mt-0">重量訓練 WEIGHT TRAINING</h5>從研究所開始，持續運動<br/><img class="int2" src="img/int/W.png" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div><br/>
+        <div class="row">
+          <h2 class="ml-5">ANIMATIONS</h2>
+          <div class="w-100"></div>
+          <div class="col-sm mt-2">
+            <div class="media"><img class="int mr-3" src="img/int/int_3.jpg" alt="航海王"/>
+              <div class="media-body">
+                <h5 class="mt-0">航海王 ONE PIECE</h5>航海王自1997年開始連載，至今仍是我最愛的動畫！<br/><img class="int2" src="img/int/OP_3.png" alt=""/>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mt-2">
+            <div class="media"><img class="int mr-3" src="img/int/int_4.jpg" alt="鬼滅之刃"/>
+              <div class="media-body">
+                <h5 class="mt-0">鬼滅之刃</h5>短短一年爆紅，動畫方面更是神作<br/><img class="int2" src="img/int/Kimetsu.png" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div><br/>
+        <div class="row">
+          <h2 class="ml-5">GAMES</h2>
+          <div class="w-100"></div>
+          <div class="col-sm mt-2">
+            <div class="media"><img class="int mr-3" src="img/int/int_5.jpg" alt="神魔之塔"/>
+              <div class="media-body">
+                <h5 class="mt-0">神魔之塔 TOWER OF SAVIORS</h5>神魔之塔自2013年開服迄今已玩約7年，登入達2550天以上<br/><img class="int2" src="img/int/TOS.png" alt=""/>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mt-2">
+            <div class="media"><img class="int mr-3" src="img/int/int_6.jpg" alt="寶可夢"/>
+              <div class="media-body">
+                <h5 class="mt-0">精靈寶可夢 GO Pokemon Go</h5>2016年開服迄今熱愛收集圖鑑<br/><img class="int3" src="img/int/PMG.png" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h1>Contact ◆</h1>
+        <hr/>
+        <div class="row">
+          <div class="col-sm-7">
+            <div class="mails">
+              <div class="mail_cover"><img src="https://awiclass.monoame.com/img/webpic/w_mail_cover.svg" alt="mail_cover"/></div>
+              <div class="mail_body">
+                <h5>歡迎留下任何建議與意見，來信與我聯絡 !!</h5>
+                <label>姓名
+                  <input type=""/>
+                </label>
+                <div class="w-100"></div>
+                <label>Email
+                  <input type=""/>
+                </label>
+                <div class="w-100"></div>
+                <label>想說的話</label>
+                <textarea class="w-100"></textarea>
+                <button class="send float-right mt-3 btn btn-info">送出</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 contact">
+            <h2>感謝您的來到</h2><br/>
+            <p>If you have any question about me, <br>Don't hestitate to contact us !</p><br/><br/>
+            <p>aweiisme@gmail.com<br>ADDRESS: Taiwan, Taipei, Xingming Road<br>Phone: 0912-345-678</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="bottom">
+        <div class="container clearfix">
+          <div class="copyright float-left">
+            <p>A Wei 1992 - Theme by <a href="#">Hsieh Cheng Wei</a> | Be Yourself, Be Happy</p>
+          </div>
+          <div class="social-media float-right">
+            <ul class="list-inline">
+              <li class="list-inline-item"></li><a href="#"><i class="fab fa-facebook-f"></i></a>
+              <li class="list-inline-item"></li><a href="#"><i class="fab fa-instagram"></i></a>
+              <li class="list-inline-item"></li><a href="#"><i class="fab fa-discord"></i></a>
+              <li class="list-inline-item"></li><a href="#"><i class="fab fa-youtube"></i></a>
+            </ul>
+          </div>
+        </div>
+      </div><img class="icon" src="img/CWH.svg" alt=""/>
+      <div class="scroll" id="go-top"><a id="gotop" href="#header-index"><i class="fas fa-chevron-circle-up"></i></a></div>
+    </footer>
+  </body>
+</html>

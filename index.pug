@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        //- 網頁標題
+        title C.W Hsieh
+        //- 標題圖示
+        <link rel="icon" type="image/png" sizes="32x32" href="img/Yoru.svg">
+        //- 加上 css
+        link(rel="stylesheet" href="css/main.css")
+        //- 加入 bootstrap
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css")
+        //- 加入 font-awesome
+        link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css")
+        //- 加入 google font
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap")
+        //- ----------------------------------------------------
+        //- 加入 jquery
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+        //- 加入 Vue.js
+        script(src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js")
+        //- 加入 Boostrap.js
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js")
+        //- 加入 skroller
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js")
+        //- 加入 js
+        script(src="main.js")
+
+
+    body
+        nav.navbar.navbar-expand-lg.fixed-top.at_top
+            .container
+                button.navbar-toggler(
+                    type="button",
+                    data-toggle="collapse",
+                    data-target="#navbarTog",
+                    aria-controls="navbarTog",
+                    aria-expanded="false",
+                    aria-label="Toggle navigation"
+                )
+                    span.navbar-toggler-icon
+                        i.fas.fa-bars
+                a#home.navbar-brand(href="home.html") C.W Hsieh
+                #navbarTog.collapse.navbar-collapse
+                    ul.navbar-nav.ml-auto.mt-2.mt-lg-0
+                        li.nav-item.active.scroll
+                            a.nav-link(href="#about-me") AboutMe
+                        li.nav-item.scroll
+                            a.nav-link(href="#skill") Skills
+                        li.nav-item.scroll
+                            a.nav-link(href="#work") Work
+                        li.nav-item.scroll
+                            a.nav-link(href="#interest") interest
+                        li.nav-item.scroll
+                            a.nav-link(href="#contact") Contact
+
+
+
+        header#header-index
+            .container
+                img.icon(src="img/CWH.svg" alt="icon"
+                    data-0="transform: translateY(-50px)"
+                    data-500="transform: translateY(100px)"
+                        )
+                .scroll
+                    a(href="#about-me")
+                        .explore.at_top About Me
+
+
+
+        section#about-me
+            .container
+                h1 About Me
+                hr
+                .row
+                    .col-sm-3(data-300="opacity: 0;transform: translateX(-100px)" data-500="opacity: 1;transform: translateX(0px)")
+                        //- img.me(src="img/lli.png" alt="")
+                        #carouselExampleSlidesOnly.carousel.slide.carousel-fade(data-ride='carousel' data-pause='false')
+                            .carousel-inner
+                                .carousel-item.my_photo(data-interval='2500')
+                                    img.d-block.w-100(src='img/me_1.jpg' alt='Cheng-Wei_1')
+                                .carousel-item.my_photo.active(data-interval='2500')
+                                    img.d-block.w-100(src='img/me_2.jpg' alt='Cheng-Wei_2')
+                                .carousel-item.my_photo(data-interval='2500')
+                                    img.d-block.w-100(src='img/me_6.jpg' alt='Cheng-Wei_6')
+                                .carousel-item.my_photo(data-interval='2500')
+                                    img.d-block.w-100(src='img/TOS_4.jpg' alt='Cheng-Wei_4')
+                                .carousel-item.my_photo(data-interval='2500')
+                                    img.d-block.w-100(src='img/me_3.jpg' alt='Cheng-Wei_3')
+                    .col-sm-9
+                        .idu
+                            .name(data-450="opacity: 0;transform: translateX(100px)" data-600="opacity: 1;transform: translateX(0px)")
+                                h4 姓名: 謝正偉
+                                h4 生日: 1992.02.29
+                                h4 年齡: 28 歲
+                                h4 性別: 男
+                                h4 興趣: 電玩遊戲<br>、羽球、動漫
+                            .sch(data-500="opacity: 0;transform: translateX(100px)" data-650="opacity: 1;transform: translateX(0px)")
+                                h4 2014年<br>國立中興大學<br>環境工程學系
+                                h4 2016年<br>國立交通大學<br>環境工程研究所
+                                h4 2017年<br>基隆市百福國中<br>教育替代役
+                            .exp(data-550="opacity: 0;transform: translateX(100px)" data-700="opacity: 1;transform: translateX(0px)")
+                                h4 2018、2019年<br>綠信環境科技<br>計畫經理
+                                h4 計畫：<br>107年度臺北市<br>資源回收體系對象<br>查核輔導計畫<br><br>108年度台北市<br>資源回收輔導宣導計畫
+            .about.dark
+                .container.text-center
+                    .self
+                        h4(data-700="opacity: 0;transform: translateY(-100px)" data-1000="opacity: 1;transform: translateY(0px)") 　　我是謝正偉，是個樂觀、隨和且務實謹慎的大男孩，是土生土長的臺北人。畢業自中興大學環境工程學系、交通大學環境工程研究所。在成長過程中，熱愛電玩遊戲的我，一直夢想可以擔任程式工程師寫出屬於自己的遊戲，所以對於程式懷有濃厚的興趣。
+                    button.btn.btn-info(type='button' data-toggle='modal' data-target='#about') More...
+
+                    //- Modal
+                    #about.modal.fade(tabindex='-1' role='dialog' aria-labelledby='CenterTitle' aria-hidden='true' data-backdrop='true' data-keyboard='false')
+                        .modal-dialog.modal-xl.modal-dialog-centered(role='document')
+                            .modal-content
+                                .modal-header.dark
+                                    h5#CenterTitle.modal-title < About Me >
+                                    button.close.fas.fa-times(type='button' data-dismiss='modal' aria-label='Close')
+                                    span(aria-hidden='true') 
+                                .modal-body.dark.text-left
+                                    h4.source 關於謝正偉
+                                        ul
+                                            li 樂觀、隨和、務實、謹慎
+                                            li 土生土長的臺北人
+                                            li 熱愛電玩遊戲，從小夢想擔任程式工程師，寫出屬於自己的遊戲
+                                    h4.source.mt-2 關於學經歷
+                                        ul
+                                            li 中興大學環境工程學系畢業
+                                            li 交通大學環境工程研究所畢業
+                                            li 大學參加系上羽球隊
+                                            li 研究所擔任系學會會長，與團隊合作策畫活動，包括外國教授來臺學術交流活動、學長姐送舊等
+                                            li 基隆百福國中教育替代役（2017年），負責文書作業、遞送公文
+                                            li 退役後進入環境顧問業工作，綠信環境科技股份有限公司擔任計畫經理（2018~2019年），負責臺北市政府的環保活動計畫，內容包括撰寫計畫、舉辦活動如資源回收宣導和贈品兌換、禁用一次性餐具記者會等
+                                    h4.source.mt-2 關於程式學習
+                                        ul
+                                            li 曾在大學「計算機概論」課程中學習「R語言」
+                                            li 曾在研究所「環境資訊網路資源之建立」課程中（指導教授高正忠教授），學習了PHP、HTML的基礎語法
+                                            li 為學習程式辭去原本工作，開始以初學者身分學習程式設計
+                                            li 利用Youtube網路資源自我學習python基礎
+                                            li 透過網路課程（網頁基礎十五天），學習逾2個月的前端課程，包括HTML、CSS、RWD、jquery基礎、JavaScript基礎、AJAX前後端溝通等
+                                            li  目前已學會透過HTML及CSS（bootstrap4，並以less方式撰寫），進行網頁之版面切割設計以及美化，再透過jquery以及AJAX來增加前後端互動，主要使用之IDE
+                                                | 則為VScode。
+                                    h4.source.mt-2 關於目標
+                                        ul
+                                            li 平時興趣是玩遊戲，包括手遊、電玩，甚至桌遊及實境解謎，也熱愛動漫
+                                            li 遊戲過程中，也常思索著：這是用什麼樣的程式寫出的遊戲？這款遊戲可以如何改進？如果是我，會怎麼製作這款遊戲？
+                                            li 短期目標：精進前端設計
+                                            li 中期目標：發展後端技能，例如學習python等程式語言
+                                            li 長期目標：致力開發遊戲、軟體程式、APP等
+
+                                .modal-footer.dark
+                                    button.btn.btn-secondary(type='button' data-dismiss='modal') Close
+                img.margin_top(src="img/mt.svg", alt="")
+
+
+
+        section#skill
+            .container
+                h1 Skills ◆
+                hr
+                .row
+                    .col-sm-6
+                        ul
+                            li#CH(data-1400="opacity: 0;transform: translateX(-350px)" data-1500="opacity: 1;transform: translateX(0px)")
+                                img.sk.lg(src="img/CH.svg" alt="中文")
+                                p 中文
+                                .ab
+                                    .abi(data-1300="width: 0%" data-1400="width: 100%")
+                            li#EN(data-1450="opacity: 0;transform: translateX(-350px)" data-1550="opacity: 1;transform: translateX(0px)")
+                                img.sk.lg(src="img/EN.svg" alt="English")
+                                p 英文
+                                .ab
+                                    .abi(data-1300="width: 0%" data-1400="width: 70%")
+                            li#JP(data-1550="opacity: 0;transform: translateX(-350px)" data-1600="opacity: 1;transform: translateX(0px)")
+                                img.sk.lg(src="img/JP.svg" alt="にほんご")
+                                p 日文
+                                .ab
+                                    .abi(data-1300="width: 0%" data-1400="width: 60%")
+                    .col-sm-6
+                        ul
+                            li#HTML(data-1400="opacity: 0;transform: translateX(350px)" data-1500="opacity: 1;transform: translateX(0px)")
+                                img.sk(src="img/HTML.svg" alt="HTML")
+                                p HTML
+                                .ab
+                                    .abi(data-1300="width: 0%" data-1400="width: 100%")
+                            li#CSS(data-1450="opacity: 0;transform: translateX(350px)" data-1550="opacity: 1;transform: translateX(0px)")
+                                img.sk(src="img/CSS.svg" alt="CSS")
+                                p CSS
+                                .ab
+                                    .abi(data-1300="width: 0%" data-1400="width: 90%")
+                            li#JS(data-1550="opacity: 0;transform: translateX(350px)" data-1600="opacity: 1;transform: translateX(0px)")
+                                img.sk(src="img/JS.svg" alt="JavaScript")
+                                p JS
+                                .ab
+                                    .abi(data-1300="width: 0%" data-1400="width: 80%")
+            
+            .skill.dark
+                .container(data-1800="opacity: 0;transform: translateX(500px)" data-2000="opacity: 1;transform: translateX(0px)")
+                    #learn.accordion
+                        .card
+                            #JPL.card-header(type='button' data-toggle='collapse' data-target='#JPLc' aria-expanded='true' aria-controls='JPLc') 
+                                h2.mb-0.ml-4 日文學習
+                                hr.mb-0
+                            #JPLc.collapse(aria-labelledby='JPL' data-parent='#learn')
+                                .card-body 由於喜歡日本文化、動畫以及遊戲，故自去年11月開始學習日文迄今(程度約N4)，不斷精進自己的日文語言能力。
+                            br
+                            #PCL.card-header(type='button' data-toggle='collapse' data-target='#PCLc' aria-expanded='true' aria-controls='PCLc')
+                                h2.mb-0.ml-4 程式語言學習
+                                hr.mb-0
+                            #PCLc.collapse(aria-labelledby='PCL' data-parent='#learn')
+                                .card-body 大學課程中學習「R語言」
+                                    br
+                                    | 研究所課程中學習PHP、HTML的基礎語法
+                                    br
+                                    | 透過網路課程（網頁基礎十五天）學習HTML、CSS、RWD、jquery基礎、JavaScript基礎、AJAX前後端溝通等
+                            br
+                            #OTS.card-header(type='button' data-toggle='collapse' data-target='#OTSc' aria-expanded='true' aria-controls='OTSc')
+                                h2.mb-0.ml-4 其他技能
+                                hr.mb-0
+                            #OTSc.collapse(aria-labelledby='OTS' data-parent='#learn')
+                                .card-body 電腦：Word、Excel、PowerPoint、Adobe XD、AI 
+                                    br
+                                    |音樂：直笛(中音笛、次中音笛、低音笛)、長號
+                                    br
+                                    |駕照：汽車駕照、機車駕照
+
+
+
+        section#work
+            .container
+                .row(v-if="works.length>0")
+                    .col-sm-12
+                        h1 Works ◆
+                        hr
+                .row
+                    .col-sm-6.work.big
+                        img(:src="works[0].img", alt="work0")
+                        a.texts(:href="works[0].linkad" target="_blank")
+                            h4.title {{ works[0].name }}
+                            p.content(v-html="works[0].content.substr(0,40)")
+                    .col-sm-6
+                        .row
+                            .col-sm-6.work(v-for="w in works.slice(1,5)")
+                                img(:src="w.img", alt="")
+                                a.texts(:href="w.linkad" target="_blank")
+                                    h4.title {{ w.name }}
+                                    p.content {{ w.content }}
+
+
+
+        section#interest
+            .container
+                h1 Interest ◆
+                hr
+                h4.text-center 運動、動畫、遊戲 
+                br
+                .row
+                    h2.ml-5 SPORT
+                    .w-100
+                    .col-sm.mt-2
+                        .media
+                            img.int.mr-3(src='img/int/int_1.jpg' alt='羽球')
+                            .media-body
+                                h5.mt-0 羽球 BADMINTON
+                                | 大一加入系上羽球隊、
+                                br
+                                |大一~大四參與大環杯，與各校比賽、切磋球技
+                                br
+                                img.int3(src="img/int/B.png", alt="")
+                    .col-sm.mt-2
+                        .media
+                            img.int.mr-3(src='img/int/int_2.jpg' alt='重訓')
+                            .media-body
+                                h5.mt-0 重量訓練 WEIGHT TRAINING
+                                | 從研究所開始，持續運動
+                                br
+                                img.int2(src="img/int/W.png", alt="")
+                br
+                .row
+                    h2.ml-5 ANIMATIONS
+                    .w-100
+                    .col-sm.mt-2
+                        .media
+                            img.int.mr-3(src='img/int/int_3.jpg' alt='航海王')
+                            .media-body
+                                h5.mt-0 航海王 ONE PIECE
+                                |航海王自1997年開始連載，至今仍是我最愛的動畫！
+                                br
+                                img.int2(src="img/int/OP_3.png", alt="")
+                    .col-sm.mt-2
+                        .media
+                            img.int.mr-3(src='img/int/int_4.jpg' alt='鬼滅之刃')
+                            .media-body
+                                h5.mt-0 鬼滅之刃
+                                |短短一年爆紅，動畫方面更是神作
+                                br
+                                img.int2(src="img/int/Kimetsu.png", alt="")
+                br
+                .row
+                    h2.ml-5 GAMES
+                    .w-100
+                    .col-sm.mt-2
+                        .media
+                            img.int.mr-3(src='img/int/int_5.jpg' alt='神魔之塔')
+                            .media-body
+                                h5.mt-0 神魔之塔 TOWER OF SAVIORS
+                                |神魔之塔自2013年開服迄今已玩約7年，登入達2550天以上
+                                br
+                                img.int2(src="img/int/TOS.png", alt="")
+                    .col-sm.mt-2
+                        .media
+                            img.int.mr-3(src='img/int/int_6.jpg' alt='寶可夢')
+                            .media-body
+                                h5.mt-0 精靈寶可夢 GO Pokemon Go
+                                |2016年開服迄今熱愛收集圖鑑
+                                br
+                                img.int3(src="img/int/PMG.png", alt="")
+
+
+
+        section#contact
+            .container
+                h1 Contact ◆
+                hr
+                .row
+                    .col-sm-7
+                        .mails
+                            .mail_cover
+                                img(
+                                    src="https://awiclass.monoame.com/img/webpic/w_mail_cover.svg",
+                                    alt="mail_cover"
+                                )
+                            .mail_body
+                                h5 歡迎留下任何建議與意見，來信與我聯絡 !!
+                                label 姓名
+                                    input(type="")
+                                .w-100
+                                label Email
+                                    input(type="")
+                                .w-100
+                                label 想說的話
+                                textarea.w-100
+                                button.send.float-right.mt-3.btn.btn-info 送出
+
+                    .col-sm-5.contact
+                        h2 感謝您的來到
+                        br
+                        p If you have any question about me, <br>Don't hestitate to contact us !
+                        br
+                        br
+                        p aweiisme@gmail.com<br>ADDRESS: Taiwan, Taipei, Xingming Road<br>Phone: 0912-345-678
+
+
+
+        footer#footer
+            .bottom
+                .container.clearfix
+                    .copyright.float-left
+                        p A Wei 1992 - Theme by 
+                            a(href='#') Hsieh Cheng Wei
+                            |  | Be Yourself, Be Happy
+                    .social-media.float-right
+                        ul.list-inline
+                            li.list-inline-item
+                            a(href='#')
+                                i.fab.fa-facebook-f
+                            li.list-inline-item
+                            a(href='#')
+                                i.fab.fa-instagram
+                            li.list-inline-item
+                            a(href='#')
+                                i.fab.fa-discord
+                            li.list-inline-item
+                            a(href='#')
+                                i.fab.fa-youtube
+            img.icon(src="img/CWH.svg" alt="")
+
+            #go-top.scroll
+                a#gotop(href='#header-index')
+                    i.fas.fa-chevron-circle-up

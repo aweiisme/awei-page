@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1179" height="486" viewBox="0 0 1179 486">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1179" height="486"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <text id="C" transform="matrix(0.966, 0.259, -0.259, 0.966, -40.101, 374.597)" fill="#f95d5d" font-size="475" font-family="ShowcardGothic-Reg, Showcard Gothic"><tspan x="0" y="0">C</tspan></text>
+    <text id="Y" transform="translate(375 448)" fill="#ebb96f" font-size="653" font-family="Sylfaen" letter-spacing="0.2em"><tspan x="0" y="0">Y</tspan></text>
+    <text id="W" transform="translate(170 488)" fill="#799cfb" font-size="400" font-family="RageItalic, Rage"><tspan x="0" y="0">W</tspan></text>
+    <text id="Studio" transform="translate(697 442)" fill="#724848" font-size="350" font-family="Playbill"><tspan x="0" y="0">studio</tspan></text>
+  </g>
+</svg>

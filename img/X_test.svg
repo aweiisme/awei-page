@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="440px" height="440px" viewBox="0 0 440 440" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="10" dy="10" />
+      <feGaussianBlur stdDeviation="2.5" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.3254902 0 0 0 0 0 0 0 0 0 0.05882353 0 0 0 0.36078432 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+  </defs>
+  <g id="Group" transform="translate(20 20)">
+    <path d="M0 200C0 89.543 89.543 0 200 0C310.457 0 400 89.543 400 200C400 310.457 310.457 400 200 400C89.543 400 0 310.457 0 200Z" id="Ellipse" fill="#D3D3D3" stroke="none" />
+    <path d="M0 180C0 80.5887 80.5887 0 180 0C279.411 0 360 80.5887 360 180C360 279.411 279.411 360 180 360C80.5887 360 0 279.411 0 180Z" transform="translate(20 20)" id="Ellipse-Copy" fill="none" stroke="#F26164" stroke-width="40" />
+    <g filter="url(#filter_1)" transform="translate(130 63)">
+      <g id="X" fill="#3A405A">
+        <path d="M12 221.023L49.44 133.423Q43.92 128.143 40.32 121.783Q36.72 115.423 34.8 110.383L15.12 58.3034L29.04 54.4634L48.96 106.783Q52.32 115.663 57.96 121.783Q63.6 127.903 75.36 130.783L77.52 131.503L111.6 54.4634L125.52 58.3034L90.48 138.223Q96.96 143.263 100.92 149.743Q104.88 156.223 107.28 161.983L131.04 221.023L115.68 221.023L93.12 165.583Q89.04 155.263 82.32 149.983Q75.6 144.703 64.8 142.063L61.92 141.343L27.84 221.023L12 221.023Z" />
+      </g>
+    </g>
+  </g>
+</svg>
