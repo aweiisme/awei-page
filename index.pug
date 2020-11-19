@@ -73,8 +73,8 @@ html(lang="en")
         header#header-index
             .container
                 img.icon(src="img/CWH.png" alt="icon"
-                    data-0="transform: translateY(-50px)"
-                    data-500="transform: translateY(100px)"
+                    data-center-top="transform: translateY(-50px)"
+                    data-center-bottom="transform: translateY(100px)"
                         )
                 .scroll
                     a(href="#about-me")
@@ -87,7 +87,7 @@ html(lang="en")
                 h1 About Me
                 hr
                 .row
-                    .col-sm-3(data-300="opacity: 0;transform: translateX(-100px)" data-500="opacity: 1;transform: translateX(0px)")
+                    .col-sm-3(data-bottom="opacity: 0;transform: translateX(-100px)" data-center-top="opacity: 1;transform: translateX(0px)")
                         //- img.me(src="img/lli.png" alt="")
                         #carouselExampleSlidesOnly.carousel.slide.carousel-fade(data-ride='carousel' data-pause='false')
                             .carousel-inner
@@ -103,23 +103,23 @@ html(lang="en")
                                     img.d-block.w-100(src='img/me_3.jpg' alt='Cheng-Wei_3')
                     .col-sm-9
                         .idu.row
-                            .col-lg.name(data-450="opacity: 0;transform: translateX(100px)" data-600="opacity: 1;transform: translateX(0px)")
+                            .col-lg.name(data-bottom-top="opacity: 0;transform: translateX(100px)" data-center-top="opacity: 1;transform: translateX(0px)")
                                 h4 姓名: 謝正偉
                                 h4 生日: 1992.02.29
                                 h4 年齡: 28 歲
                                 h4 性別: 男
                                 h4 興趣: 電玩遊戲<br>、羽球、動漫
-                            .col-lg.sch(data-500="opacity: 0;transform: translateX(100px)" data-650="opacity: 1;transform: translateX(0px)")
+                            .col-lg.sch(data-bottom="opacity: 0;transform: translateX(100px)" data-center-top="opacity: 1;transform: translateX(0px)")
                                 h4 2014年<br>國立中興大學<br>環境工程學系
                                 h4 2016年<br>國立交通大學<br>環境工程研究所
                                 h4 2017年<br>基隆市百福國中<br>教育替代役
-                            .col-lg.exp(data-550="opacity: 0;transform: translateX(100px)" data-700="opacity: 1;transform: translateX(0px)")
+                            .col-lg.exp(data-bottom="opacity: 0;transform: translateX(100px)" data-center-top="opacity: 1;transform: translateX(0px)")
                                 h4 2018、2019年<br>綠信環境科技<br>計畫經理
                                 h4 計畫：<br>107年度臺北市<br>資源回收體系對象<br>查核輔導計畫<br><br>108年度台北市<br>資源回收輔導宣導計畫
             .about.dark
                 .container.text-center
                     .self
-                        h4(data-700="opacity: 0;transform: translateY(-100px)" data-1000="opacity: 1;transform: translateY(0px)") 　　我是謝正偉，是個樂觀、隨和且務實謹慎的大男孩，是土生土長的臺北人。畢業自中興大學環境工程學系、交通大學環境工程研究所。在成長過程中，熱愛電玩遊戲的我，一直夢想可以擔任程式工程師寫出屬於自己的遊戲，所以對於程式懷有濃厚的興趣。
+                        h4(data-bottom-top="opacity: 0;transform: translateY(-100px)" data--100-bottom="opacity: 1;transform: translateY(0px)") 　　我是謝正偉，是個樂觀、隨和且務實謹慎的大男孩，是土生土長的臺北人。畢業自中興大學環境工程學系、交通大學環境工程研究所。在成長過程中，熱愛電玩遊戲的我，一直夢想可以擔任程式工程師寫出屬於自己的遊戲，所以對於程式懷有濃厚的興趣。
                     button.btn.btn-info(type='button' data-toggle='modal' data-target='#about') More...
 
                     //- Modal
@@ -173,41 +173,41 @@ html(lang="en")
                 .row
                     .col-sm-6
                         ul
-                            li#CH(data-1400="opacity: 0;transform: translateX(-350px)" data-1500="opacity: 1;transform: translateX(0px)")
+                            li#CH(data-100-bottom="opacity: 0;transform: translateX(-350px)" data--200-bottom="opacity: 1;transform: translateX(0px)")
                                 img.sk.lg(src="img/CH.svg" alt="中文")
                                 p 中文
                                 .ab
-                                    .abi(data-1300="width: 0%" data-1400="width: 100%")
-                            li#EN(data-1450="opacity: 0;transform: translateX(-350px)" data-1550="opacity: 1;transform: translateX(0px)")
+                                    .abi(data-100-bottom="width: 0%" data--100-bottom="width: 100%")
+                            li#EN(data-100-bottom="opacity: 0;transform: translateX(-350px)" data--200-bottom="opacity: 1;transform: translateX(0px)")
                                 img.sk.lg(src="img/EN.svg" alt="English")
                                 p 英文
                                 .ab
-                                    .abi(data-1300="width: 0%" data-1400="width: 70%")
-                            li#JP(data-1550="opacity: 0;transform: translateX(-350px)" data-1600="opacity: 1;transform: translateX(0px)")
+                                    .abi(data-100-bottom="width: 0%" data--100-bottom="width: 70%")
+                            li#JP(data-100-bottom="opacity: 0;transform: translateX(-350px)" data--200-bottom="opacity: 1;transform: translateX(0px)")
                                 img.sk.lg(src="img/JP.svg" alt="にほんご")
                                 p 日文
                                 .ab
-                                    .abi(data-1300="width: 0%" data-1400="width: 60%")
+                                    .abi(data-100-bottom="width: 0%" data--100-bottom="width: 60%")
                     .col-sm-6
                         ul
-                            li#HTML(data-1400="opacity: 0;transform: translateX(350px)" data-1500="opacity: 1;transform: translateX(0px)")
+                            li#HTML(data-100-bottom="opacity: 0;transform: translateX(350px)" data--200-bottom="opacity: 1;transform: translateX(0px)")
                                 img.sk(src="img/HTML.svg" alt="HTML")
                                 p HTML
                                 .ab
-                                    .abi(data-1300="width: 0%" data-1400="width: 100%")
-                            li#CSS(data-1450="opacity: 0;transform: translateX(350px)" data-1550="opacity: 1;transform: translateX(0px)")
+                                    .abi(data-100-bottom="width: 0%" data--100-bottom="width: 100%")
+                            li#CSS(data-100-bottom="opacity: 0;transform: translateX(350px)" data--200-bottom="opacity: 1;transform: translateX(0px)")
                                 img.sk(src="img/CSS.svg" alt="CSS")
                                 p CSS
                                 .ab
-                                    .abi(data-1300="width: 0%" data-1400="width: 90%")
-                            li#JS(data-1550="opacity: 0;transform: translateX(350px)" data-1600="opacity: 1;transform: translateX(0px)")
+                                    .abi(data-100-bottom="width: 0%" data--100-bottom="width: 90%")
+                            li#JS(data-100-bottom="opacity: 0;transform: translateX(350px)" data--200-bottom="opacity: 1;transform: translateX(0px)")
                                 img.sk(src="img/JS.svg" alt="JavaScript")
                                 p JS
                                 .ab
-                                    .abi(data-1300="width: 0%" data-1400="width: 80%")
+                                    .abi(data-100-bottom="width: 0%" data--100-bottom="width: 80%")
             
             .skill.dark
-                .container(data-1800="opacity: 0;transform: translateX(500px)" data-2000="opacity: 1;transform: translateX(0px)")
+                .container(data-bottom="opacity: 0;transform: translateX(400px)" data--100-bottom="opacity: 1;transform: translateX(0px)")
                     #learn.accordion
                         .card
                             #JPL.card-header(type='button' data-toggle='collapse' data-target='#JPLc' aria-expanded='true' aria-controls='JPLc') 
