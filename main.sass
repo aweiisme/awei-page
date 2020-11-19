@@ -59,6 +59,7 @@ body
 
 
 section,header,footer
+    position: relative
     margin-bottom: 100px
     color: $color_white
 
@@ -68,6 +69,9 @@ section,header,footer
     hr
         margin-bottom: 35px
         border: 1px solid $color_hover
+
+#skill,#about-me
+    overflow-x: hidden
 
 // C S S 設定
 // 共用
@@ -118,15 +122,15 @@ nav.navbar
                     content: "★"
                     font-size: 12px
 
-nav.navbar.navbar-expand-lg.fixed-top
-    span.navbar-toggler-icon
-        i
-            font-size: 30px
-            color: darken($color_green,10)
-nav.navbar.navbar-expand-lg.fixed-top.at_top
-    span.navbar-toggler-icon
-        i
-            color: $color_white
+    &.navbar-expand-lg.fixed-top
+        span.navbar-toggler-icon
+            i
+                font-size: 30px
+                color: darken($color_green,10)
+    &.navbar-expand-lg.fixed-top.at_top
+        span.navbar-toggler-icon
+            i
+                color: $color_white
 
 //header
 #header-index
@@ -305,6 +309,8 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
 // interest
 #interest
     position: relative
+    // display: flex
+    // flex-wrap: wrap
     .media
         .media-body
             padding: 10px
@@ -312,17 +318,19 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
         letter-spacing: 5px
     img.int
         border-radius: 10px
-        width: 200px
+        width: 50%
 
         
     img.int2
-        padding-top: 30px
-        padding-left: 50px
-        height: 190px
+        padding-top: 10px
+        // padding-left: 50px
+        // height: 190px
+        width: 90%
     img.int3
-        padding-top: 30px
-        padding-left: 50px
-        height: 160px
+        padding-top: 10px
+        // padding-left: 50px
+        width: 90%
+        // height: 160px
     .int2,.int3
         &:hover
             animation: img-rotate 2s linear 1
@@ -331,6 +339,9 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
 
 
 #contact
+    display: flex
+    justify-content: center
+    align-items: center
     .mails
         margin-top: 80px
         height: 400px
@@ -362,6 +373,10 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top
     textarea
         height: 140px
         width: 100%
+    
+    .contact
+        margin-top: 40px
+        padding: 20px
 
 
 
@@ -377,6 +392,8 @@ footer
         max-width: 250px
         padding: 20px 0
 
+
+    
 #go-top
     z-index: 1000
     position: fixed

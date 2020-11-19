@@ -45,6 +45,7 @@ body {
 }
 
 section, header, footer {
+  position: relative;
   margin-bottom: 100px;
   color: #ececec;
 }
@@ -55,6 +56,10 @@ section h1, header h1, footer h1 {
 section hr, header hr, footer hr {
   margin-bottom: 35px;
   border: 1px solid #F9DB6D;
+}
+
+#skill, #about-me {
+  overflow-x: hidden;
 }
 
 .dark {
@@ -110,12 +115,10 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top a.nav-link::before {
   content: "★";
   font-size: 12px;
 }
-
 nav.navbar.navbar-expand-lg.fixed-top span.navbar-toggler-icon i {
   font-size: 30px;
   color: #086154;
 }
-
 nav.navbar.navbar-expand-lg.fixed-top.at_top span.navbar-toggler-icon i {
   color: #ececec;
 }
@@ -321,22 +324,25 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top span.navbar-toggler-icon i {
 }
 #interest img.int {
   border-radius: 10px;
-  width: 200px;
+  width: 50%;
 }
 #interest img.int2 {
-  padding-top: 30px;
-  padding-left: 50px;
-  height: 190px;
+  padding-top: 10px;
+  width: 90%;
 }
 #interest img.int3 {
-  padding-top: 30px;
-  padding-left: 50px;
-  height: 160px;
+  padding-top: 10px;
+  width: 90%;
 }
 #interest .int2:hover, #interest .int3:hover {
   animation: img-rotate 2s linear 1;
 }
 
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #contact .mails {
   margin-top: 80px;
   height: 400px;
@@ -371,6 +377,10 @@ nav.navbar.navbar-expand-lg.fixed-top.at_top span.navbar-toggler-icon i {
 #contact textarea {
   height: 140px;
   width: 100%;
+}
+#contact .contact {
+  margin-top: 40px;
+  padding: 20px;
 }
 
 footer {
