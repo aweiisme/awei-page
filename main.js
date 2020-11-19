@@ -1,6 +1,8 @@
 $(document).ready(function () {
   // 滾輪下滑特效
   var s = skrollr.init();
+  //解決手機滑動問題
+  $(document).body.id = "skrollr-body";
 
   //   隨滾輪消失的事件
   $(window).scroll(function (e) {
