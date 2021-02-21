@@ -1,0 +1,36 @@
+實際製作
+1. skrollr 捲動式網頁 (主題：寶可夢)  https://codepen.io/yoru0229/debug/ExyWXpN
+2. 天氣盒子 https://cdpn.io/yoru0229/debug/gOMMXVM/gareYdOBqeWr
+3. 互動式鋼琴 (範例+播放+演奏) https://cdpn.io/yoru0229/debug/LYNXWOM/jVApoEzRzQOr
+4. Yellow Studio設計工作室網頁 https://cdpn.io/yoru0229/debug/BaKJbWx/PBMNWRKdWQZr
+5. 購物車 (金額非數字阻擋) https://cdpn.io/yoru0229/debug/LYNazxg/PNAvYXBgBzKr
+6. 備忘錄 (CURD) https://cdpn.io/yoru0229/debug/poyPbWd/yYAyLaBgNPjr
+
+練習
+1. SVG圖練習 (繪製+動畫) https://cdpn.io/yoru0229/debug/WNxpjKz/NjrYzGKpmYdA
+2. 品牌視覺引導 (主題：LOL) https://cdpn.io/yoru0229/debug/JjKjzXR/LDMmdnbONLYk
+3. 個人簡歷 https://cdpn.io/yoru0229/debug/ZEWNxZq/LQMExgYNqDEk
+4. Vue+Ajax 綜合案例 (主題：hahow網頁範例)  https://cdpn.io/yoru0229/debug/GRZYKGx/dXAqBaWRBBbk
+5. Bootstrap練習 (主題：寶可夢) https://cdpn.io/yoru0229/debug/yLOzGZK/DqkDdYJeaNQk
+6. FB頁面刻畫練習(主題：三國殺) https://cdpn.io/yoru0229/debug/VwazEmP/PBrNWRKdqnpA
+7. 手機畫面模擬 https://cdpn.io/yoru0229/debug/OJNWmNL/dXAqBaWRODPk
+
+
+基礎練習
+1. jquery 變數概念(儲存修改與判斷) https://codepen.io/yoru0229/pen/MWybEav
+2. CSS影格動畫練習 https://codepen.io/yoru0229/pen/wvGMgVW?editors=0100
+3. 排版練習 https://codepen.io/yoru0229/pen/qBZXMpz?editors=0100
+	  https://codepen.io/yoru0229/pen/LYNjJZv?editors=0100
+4. JSON & AJAX 結合練習 https://codepen.io/yoru0229/pen/vYGJrrp
+5. scroller測試練習 https://codepen.io/yoru0229/pen/qBZVZBe
+6. Jqery練習 (貓咪起立) https://cdpn.io/yoru0229/debug/XWdVyJL/yokZEpzLYQpA
+	　(貓咪盯著) https://cdpn.io/yoru0229/debug/MWyrPBq/VJrxxEKgbVXr
+
+
+Vue練習
+1. 將變數代入模板中(Vue.js 練習) https://codepen.io/yoru0229/pen/oNxdXOO
+2. v-for 列舉元素應用 https://codepen.io/yoru0229/pen/bGpKRLq
+3. v-model 使用者輸入雙向綁定 https://cdpn.io/yoru0229/debug/bGpKmRy/ZoABaLBpaevr
+4. v-if / v-show 條件渲染與資料的後處理(博客來) https://cdpn.io/yoru0229/debug/LYNBErZ/jVkpoEzRoGoA
+5. 與AJAX的對接 動態載入資訊 https://cdpn.io/yoru0229/debug/gOrdJjz/nqkwvzwgvERA
+
